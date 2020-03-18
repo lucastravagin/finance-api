@@ -4,7 +4,7 @@
   "description": "API de simulação de contas bancarias",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lucastravagin/finance-api/issues"
   },
-  "homepage": "https://github.com/lucastravagin/finance-api#readme"
+  "homepage": "https://github.com/lucastravagin/finance-api#readme",
+  "devDependencies": {
+    "jest": "~25.1.0"
+  }
 }
