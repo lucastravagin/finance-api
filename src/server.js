@@ -1,10 +1,6 @@
-const express = require('express')
+const app = require('./app')
 
-const app = express()
-
-app.get('/', (req, res) => {
-    res.status(200).send()
+app.listen(3001, () => {
+    console.info('A aplicação está no ar')
 })
-
-app.listen(3001)
 
