@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/lucastravagin/finance-api#readme",
   "devDependencies": {
-    "jest": "~25.1.0"
+    "jest": "~25.1.0",
+    "supertest": "3.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
