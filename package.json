@@ -4,7 +4,9 @@
   "description": "API de simulação de contas bancarias",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node src/server.js",
+    "test": "jest",
+    "secure-mode": "jest --watch"
   },
   "repository": {
     "type": "git",
