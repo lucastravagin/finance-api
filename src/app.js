@@ -6,7 +6,11 @@ const knex = require('knex')
 
 const knexfile = require('../knexfile')
 
+const knexlogger = require('knex-logger')
+
 app.db = knex(knexfile.test)
+
+app.use(knexlogger(app.db))
 
 consign({cwd: 'src', verbose: false })
     .include('./config/middlewares.js')
